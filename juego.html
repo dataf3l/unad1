@@ -1,0 +1,55 @@
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<script src='juego.js'></script>
+<script src='./glossary.js'></script>
+
+<style>
+* {
+	font-family:"courier new", monospace;
+}
+body {
+	background-color:black;
+	margin:0;
+	padding:100px;
+	color:white;
+}
+.op {
+	text-decoration:underline;
+	cursor:pointer;
+	color:blue;
+	border:2px dotted black;
+}
+.op:hover {
+	background-color:white;
+	color:black;
+	border:2px dotted black;
+	display:inline-block;
+}
+.juego {
+	line-height:2em;
+	width:100%;
+	height:100%;
+	border:2px dotted black;
+	background-color:black;
+	color:#00FF00;
+	font-size:14pt;
+	font-weight:bold;
+}
+</style>
+
+</head>
+<body onload='init()'>
+
+	<div>
+		<h2>Juego de Memoria</h2>
+		<a href='./index.html'>Volver al home </a>
+	Para mejor experiencia, dale play:
+	</div>
+	<audio controls autoplay>
+		<source src="./audio/Razor1911 - Gothic 3trn.mp3" type="audio/mpeg"/ >
+		Your browser does not support the audio element.
+	</audio>
+	
+	<div id=board class=juego></div>
+</body>
