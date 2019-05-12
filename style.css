@@ -1,0 +1,12 @@
+.bg-primary {
+	background-color:#005883 !important;
+	background-image:url("./images/logo.unad.png");
+	background-position:top left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height:100px;
+	padding-left:130px;
+}
+body {
+	padding-top: 50px;
+}
