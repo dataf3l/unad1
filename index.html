@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,23 +13,26 @@
 </head>
 
 <body>
+  <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="./index.html">Inicio</a>
+            <a class="navbar-brand" href="#inicio">Inicio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="imagen.html">MUTLTIMEDIA</a>
-                    <a class="nav-item nav-link" href="">ACTIVIDADES</a>
-                    <a class="nav-item nav-link" href="">AUTORES</a>
+                    <a class="nav-item nav-link" href="#Multimedia">MUTLTIMEDIA</a>
+                    <a class="nav-item nav-link" href="#Actividades">ACTIVIDADES</a>
+                    <a class="nav-item nav-link" href="#Autores">AUTORES</a>
                 </div>
             </div>
         </div>
     </nav>
-    <header>
+    </header>
+    <section>
+	<a name='inicio'></a>
         <div class="container mt-5">
             <div class="row">
                 <div class="col">
@@ -37,7 +40,37 @@
 			    <iframe id="ytplayer" 
 				    type="text/html" 
 				    width="640" height="360"
-				    src="https://www.youtube.com/embed/ooJSgsB5fIE?autoplay=1"
+				    src="https://www.youtube.com/embed/ooJSgsB5fIE"
+				    frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="header-content-right">
+                        <h1 class="display-5">
+                            <div class="5">Glosario de Seguridad Inform&aacute;tica</div>
+                        </h1>
+                        <p class="mt-4">
+                            <div class="4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ad, odit
+                                doloremque ut sequi a quibusdam velit ullam, non distinctio odio ducimus dolore
+                                consectetur aut labore nihil consequuntur suscipit illo.</div>
+                        </p>
+                        <a href="#Actividades" class="btn btn-outline-primary btn-lg mt-2">Ver Actividades</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name='Multimedia'></a>
+    <section>
+	
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="header-content-left">
+			    <iframe id="ytplayer" 
+				    type="text/html" 
+				    width="640" height="360"
+				    src="https://www.youtube.com/embed/ooJSgsB5fIE"
 				    frameborder="0"></iframe>
                     </div>
                 </div>
@@ -56,11 +89,63 @@
                 </div>
             </div>
         </div>
-    </header>
-
+    </section>
+    <a name='Actividades'></a>
+    <section>
+	
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="header-content-left">
+			    <iframe id="ytplayer" 
+				    type="text/html" 
+				    width="640" height="360"
+				    src="https://www.youtube.com/embed/ooJSgsB5fIE"
+				    frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="header-content-right">
+                        <h1 class="display-5">
+                            <div class="5">Actividades</div>
+                        </h1>
+                        <p class="mt-4">
+                            <div class="4">
+				    <h2>Actividad 1</h2>
+				    <p>Realice un análisis de la seguridad de un servidor de su organización, usando nmap u otras herramientas, analice cuales puertos están abiertos a conexiones de internet</p>
+				    <h2>Actividad 2</h2>
+				    <p>A patir de la lista de puertos encontrados en la actividad uno, proceda a verificar cuales de estos servicios usan la contraseña por defecto del servicio, p.e. postgres/postgres, mysql: root/"", admin/admin, etc, de haber
+				    algún servicio con dicha contraseña, proceda a modificar la clave
+				    </p>
+			    
+			    </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name='Autores'></a>
+    <section>
+	
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+			<h1>Autores</h1> 
+                </div>
+                <div class="col">
+                    <div class="header-content-right">
+			    <h2>John Fredy Perez (1.077.967.769)</h2>
+			    <h2>Felipe Valdes Rueda (80.765.582)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
-            <p>&copy; Website 2019. All Rights Reserved.</p>
+            <p>&copy; UNAD 2019. Creative Commons CC-0 </p>
+	</div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
